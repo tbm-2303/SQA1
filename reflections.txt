@@ -9,3 +9,45 @@ Our testing approach effectively covers key functionalities through unit tests a
 
 Conclusion
 In conclusion, our testing strategy is robust, ensuring functional correctness and component interaction. Future enhancements could focus on expanding test categories and including performance and user acceptance tests for better software quality assurance.
+
+
+5 elements:
+
+- What is being tested?
+This question clarifies the specific functionality or behavior of the code being tested. It helps identify the method, function, or component that is under test.
+
+- What are the expected outcomes?
+This defines the expected results or behavior of the code under test for given inputs. It sets a clear benchmark for determining if the test passes or fails.
+
+- What inputs are being provided?
+This question specifies the input data or parameters used for the test. It should cover various scenarios, including normal, edge, and invalid cases, to ensure comprehensive coverage.
+
+- Are there any dependencies?
+This addresses whether the unit being tested relies on external systems, resources, or components (like databases, APIs, or file systems). If so, it’s important to determine how these dependencies will be handled, such as through mocking or stubbing.
+
+- What is the test's execution context?
+This includes information about the environment in which the test runs, such as configurations, state setup, and teardown processes. It ensures that the test is isolated and produces consistent results.
+
+
+Test Categories According to Martin Fowler
+Martin Fowler outlines several categories of tests in his discussions about software testing. These categories help to classify tests based on their purpose and scope, ensuring a comprehensive testing strategy. The main categories include:
+	1. Unit Tests:
+		○ Purpose: Verify the correctness of individual units of code (usually functions or methods).
+		○ Characteristics: Fast, isolated, and focused on specific functionality.
+		○ Example in Our Project: The five unit tests for the TaskService and TaskListService classes, such as CreateTask_ShouldCreateTask and UpdateTask_ShouldUpdateTaskDetails, fall into this category.
+	2. Integration Tests:
+		○ Purpose: Verify the interactions between different components or systems.
+		○ Characteristics: Focus on the flow of data and the integration of different parts of the application.
+		○ Example in Our Project: The two integration tests, GetAllTasks_ShouldReturnAllTasks and GetTasksFromList_ShouldReturnTasksFromSpecificList, test how the TaskService interacts with the TaskListService.
+	3. Functional Tests:
+		○ Purpose: Verify that the application behaves as expected from the user's perspective.
+		○ Characteristics: Often focus on end-to-end scenarios and ensure the application meets business requirements.
+		○ Example in Our Project: The specification-based test, AddTaskToList_ShouldAddTaskToSpecificList, checks that tasks are correctly added to specific task lists, aligning with functional requirements.
+	4. Performance Tests:
+		○ Purpose: Evaluate the responsiveness, speed, and stability of the application under various conditions.
+		○ Characteristics: Focus on load and stress testing.
+		○ Example in Our Project: We haven't implemented performance tests yet, but they can be an important addition in future iterations.
+	5. User Acceptance Tests (UAT):
+		○ Purpose: Validate the application against user requirements and expectations.
+		○ Characteristics: Typically performed by end-users to ensure the system meets their needs.
+		○ Example in Our Project: We haven't conducted UAT yet, but gathering user feedback could enhance our testing strategy.
