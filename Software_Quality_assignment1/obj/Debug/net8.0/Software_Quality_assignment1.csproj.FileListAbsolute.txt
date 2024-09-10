@@ -1,0 +1,14 @@
+C:\Users\Timmy\OneDrive\Skrivebord\Software Quality\Software_Quality_assignment1\Software_Quality_assignment1\bin\Debug\net8.0\Software_Quality_assignment1.exe
+C:\Users\Timmy\OneDrive\Skrivebord\Software Quality\Software_Quality_assignment1\Software_Quality_assignment1\bin\Debug\net8.0\Software_Quality_assignment1.deps.json
+C:\Users\Timmy\OneDrive\Skrivebord\Software Quality\Software_Quality_assignment1\Software_Quality_assignment1\bin\Debug\net8.0\Software_Quality_assignment1.runtimeconfig.json
+C:\Users\Timmy\OneDrive\Skrivebord\Software Quality\Software_Quality_assignment1\Software_Quality_assignment1\bin\Debug\net8.0\Software_Quality_assignment1.dll
+C:\Users\Timmy\OneDrive\Skrivebord\Software Quality\Software_Quality_assignment1\Software_Quality_assignment1\bin\Debug\net8.0\Software_Quality_assignment1.pdb
+C:\Users\Timmy\OneDrive\Skrivebord\Software Quality\Software_Quality_assignment1\Software_Quality_assignment1\obj\Debug\net8.0\Software_Quality_assignment1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Timmy\OneDrive\Skrivebord\Software Quality\Software_Quality_assignment1\Software_Quality_assignment1\obj\Debug\net8.0\Software_Quality_assignment1.AssemblyInfoInputs.cache
+C:\Users\Timmy\OneDrive\Skrivebord\Software Quality\Software_Quality_assignment1\Software_Quality_assignment1\obj\Debug\net8.0\Software_Quality_assignment1.AssemblyInfo.cs
+C:\Users\Timmy\OneDrive\Skrivebord\Software Quality\Software_Quality_assignment1\Software_Quality_assignment1\obj\Debug\net8.0\Software_Quality_assignment1.csproj.CoreCompileInputs.cache
+C:\Users\Timmy\OneDrive\Skrivebord\Software Quality\Software_Quality_assignment1\Software_Quality_assignment1\obj\Debug\net8.0\Software_Quality_assignment1.dll
+C:\Users\Timmy\OneDrive\Skrivebord\Software Quality\Software_Quality_assignment1\Software_Quality_assignment1\obj\Debug\net8.0\refint\Software_Quality_assignment1.dll
+C:\Users\Timmy\OneDrive\Skrivebord\Software Quality\Software_Quality_assignment1\Software_Quality_assignment1\obj\Debug\net8.0\Software_Quality_assignment1.pdb
+C:\Users\Timmy\OneDrive\Skrivebord\Software Quality\Software_Quality_assignment1\Software_Quality_assignment1\obj\Debug\net8.0\Software_Quality_assignment1.genruntimeconfig.cache
+C:\Users\Timmy\OneDrive\Skrivebord\Software Quality\Software_Quality_assignment1\Software_Quality_assignment1\obj\Debug\net8.0\ref\Software_Quality_assignment1.dll
