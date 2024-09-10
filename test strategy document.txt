@@ -1,1 +1,59 @@
-fdfdfd
+Test Strategy Document
+1. Introduction
+This document outlines the testing strategy for the to-do list application. The primary goal of this strategy is to ensure the functionality and quality of the application by applying various testing approaches, including unit testing, integration testing, and specification-based testing. This strategy will use the NUnit testing framework for implementation.
+2. Objectives
+The objectives of the test strategy are:
+	• Validate the correct functioning of individual components (unit tests).
+	• Ensure proper integration between different components (integration tests).
+	• Verify that the system meets its functional specifications (specification-based tests).
+	• Apply a structured approach to testing that leads to a maintainable and robust test suite.
+3. Scope of Testing
+The to-do list application allows users to create tasks, organize them into different task lists, and mark tasks as completed. The testing scope includes:
+	• Testing the core services (TaskService and TaskListService).
+	• Ensuring the ability to create, update, delete, and complete tasks.
+	• Verifying the management of task lists (adding and removing tasks).
+	• Ensuring that tasks with deadlines can be marked as completed at all states
+
+4. Types of Testing
+4.1 Unit Testing
+	• Objective: Unit tests will focus on testing individual methods in isolation, ensuring they function correctly.
+	• Test Cases:
+		1. Task Creation: Test that tasks can be created with valid input.
+		2. Task Completion: Verify that a task can be marked as completed.
+		3. Task List Creation: Ensure a new to-do list is created correctly.
+		4. Adding Task to List: Test adding tasks to a task list.
+		5. Removing Task from List: Verify that tasks can be removed from a list.
+	• Coverage:
+		○ TaskService methods: AddTask, UpdateTask, DeleteTask, MarkTaskAsCompleted.
+		○ TaskListService methods: CreateTaskList, AddTaskToList, RemoveTaskFromList.
+4.2 Integration Testing
+	• Objective: Integration tests will ensure that the different components (services) of the application interact correctly.
+	• Test Cases:
+		1. Adding a Task to a TaskList: Validate that adding a task to a task list works as expected.
+		2. Removing a Task from a TaskList: Ensure that removing a task from a list removes only the correct task and leaves other lists unaffected.
+	• Coverage:
+		○ Interaction between TaskService and TaskListService.
+		○ End-to-end flow of adding and removing tasks from a task list.
+4.3 Specification-Based Testing
+	• Objective: Specification-based tests will ensure that the application meets its functional requirements, such as the ability to complete tasks regardless of their deadlines.
+	• Test Case:
+		1. Mark Task as Completed Before Deadline: Test that tasks with future deadlines can still be marked as completed.
+	• Coverage:
+		○ Test the behavior of tasks with deadlines, ensuring users can complete them at any time.
+5. Test Environment
+	• Testing Framework: NUnit will be used for all unit, integration, and specification-based tests.
+	• Tools:
+		○ NUnit for writing and running the tests.
+		○ Mocking Framework (e.g., Moq) for implementing test doubles where necessary.
+	• Development Environment:
+		○ .NET 8
+		○ Visual Studio 
+6. Verification vs. Validation
+	• Verification: Ensuring that each unit works as intended (unit tests ensure individual components meet their design specifications).
+	• Validation: Ensuring that the system as a whole behaves as expected and satisfies user requirements (integration and specification-based tests).
+7. Conclusion
+This test strategy ensures that the to-do list application will be thoroughly tested through different approaches:
+	• Unit tests for isolating and testing individual functions.
+	• Integration tests for ensuring interactions between components work as expected.
+	• Specification-based tests to confirm the application meets its functional requirements.
+	• By implementing this structured strategy, we aim to maintain high software quality, detect bugs early, and ensure the application meets both developer and user expectations.
