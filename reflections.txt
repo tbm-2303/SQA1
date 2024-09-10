@@ -1,0 +1,11 @@
+Reflection and Discussion Document
+Reflection on Verification and Validation
+Verification ensures that the software is built correctly, aligning with specifications through unit and integration tests. Our unit tests verify individual functionalities of tasks and lists, while integration tests ensure that the components interact correctly.
+
+Validation checks if the right software is built by assessing functionality from a user perspective. Our specification-based test validates that tasks can be correctly added to specific lists, ensuring the application meets user requirements.
+
+Evaluation of Test Strategy in Context of Software Quality
+Our testing approach effectively covers key functionalities through unit tests and ensures component interaction with integration tests. However, improvements can be made by incorporating performance testing and user acceptance testing (UAT) in future iterations. This would provide a more comprehensive assessment of application quality and performance under real-world scenarios.
+
+Conclusion
+In conclusion, our testing strategy is robust, ensuring functional correctness and component interaction. Future enhancements could focus on expanding test categories and including performance and user acceptance tests for better software quality assurance.
